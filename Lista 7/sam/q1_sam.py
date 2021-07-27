@@ -1,0 +1,7 @@
+cpf = input()
+numbers_points = cpf.split(".")
+last_numbers = numbers_points[2].split("-")
+print(numbers_points[0])
+print(numbers_points[1])
+print(last_numbers[0])
+print(last_numbers[1])
